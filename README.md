@@ -1,34 +1,56 @@
 # 🎬 App de Reseñas de Películas
 
 ![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
+![Python](https://img.shields.io/badge/Python-3.13-blue)
 
 ## 📖 Descripción
 
-Esta aplicación permite a los usuarios crear, editar y consultar reseñas de películas. 
-Fue desarrollada para tener un sistema organizado donde guardar opiniones y calificaciones.
+Esta aplicación de escritorio permite a los usuarios crear, editar y consultar reseñas de películas mediante una interfaz gráfica intuitiva.
 
-El proyecto resuelve el problema de no tener un lugar centralizado para registrar reseñas.
+El proyecto fue desarrollado con el objetivo de organizar opiniones y calificaciones en un solo lugar, facilitando la consulta y gestión de información sobre distintas películas.
 
-Durante su desarrollo aprendí a trabajar con bases de datos en la nube (MongoDB Atlas) y a crear interfaces gráficas con Python.
+Resuelve el problema de no contar con un sistema estructurado para registrar reseñas.
+
+Durante su desarrollo se aplicaron conocimientos de Python, MongoDB Atlas y Tkinter.
+
+---
+
+## 📊 Estado del proyecto
+
+🚧 En desarrollo
+
+---
+
+## 📑 Tabla de Contenidos
+
+* [Descripción](#-descripción)
+* [Características](#-características)
+* [Tecnologías](#-tecnologías-utilizadas)
+* [Instalación](#-instalación)
+* [Uso](#-uso)
+* [Vista previa](#-vista-previa)
+* [Pruebas](#-pruebas)
+* [Contribución](#-contribución)
+* [Autor](#-autor)
+* [Licencia](#-licencia)
 
 ---
 
 ## 🚀 Características
 
-- Sistema de inicio de sesión con roles (admin e invitado)
-- Crear, editar y eliminar reseñas (CRUD)
-- Calificación con estrellas
-- Búsqueda por título o autor
-- Interfaz gráfica con Tkinter
-- Soporte para imágenes en reseñas
+* Sistema de login con roles
+* CRUD de reseñas
+* Calificación con estrellas
+* Búsqueda por título o autor
+* Interfaz gráfica
 
 ---
 
 ## 🛠 Tecnologías utilizadas
 
-- Python
-- Tkinter
-- MongoDB Atlas
+* Python
+* Tkinter
+* MongoDB Atlas
 
 ---
 
@@ -36,3 +58,65 @@ Durante su desarrollo aprendí a trabajar con bases de datos en la nube (MongoDB
 
 1. Clona el repositorio:
 
+```
+git clone https://github.com/diegoechavarriafdz08-sudo/README.git
+```
+
+2. Entra a la carpeta:
+
+```
+cd README
+```
+
+3. Instala dependencias:
+
+```
+pip install -r requirements.txt
+```
+
+4. Ejecuta:
+
+```
+python app.py
+```
+
+---
+
+## ⚙️ Uso
+
+Al iniciar la aplicación puedes:
+
+* Iniciar sesión
+* Crear reseñas
+* Calificar películas
+* Buscar información
+
+---
+
+## 📸 Vista previa
+
+![App](assets/images/app.png)
+
+---
+
+## 🧪 Pruebas
+
+Se realizaron pruebas manuales para verificar el correcto funcionamiento del sistema.
+
+---
+
+## 🤝 Contribución
+
+Puedes contribuir haciendo un fork y enviando un pull request.
+
+---
+
+## 👤 Autor
+
+* Diego Federico Echavarría Fernández
+
+---
+
+## 📄 Licencia
+
+MIT
